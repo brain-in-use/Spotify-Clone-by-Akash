@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt="Spotify"></li>
+                <li id="brand">Spotify Clone</li>
+                <li>[Develloped by Akash Sen]</li>
+                <!-- <li>About</li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="body">
+        <h2>Play List <i class="fa-solid fa-music"></i></h2>
+        <!-- <img src="" alt="Song Icon" id="songCover"> -->
+        <div class="SongItem">
+            <img class="SongIcon" src="images/indie-folk-king.jpg" alt="indie">
+            Indie-folk-king
+            <div class="SongControl">
+                1:50 &nbsp
+                <i id="0" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/fluidity.jpg" alt="fluidity">
+            Fluidity
+            <div class="SongControl">
+                1:00 &nbsp <i id="1" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/let-it-go.jpg" alt="let">
+            Let-it-go
+            <div class="SongControl">
+                2:13 &nbsp<i id="2" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/the-way-home.jpg" alt="home">
+            The-way-home
+            <div class="SongControl">
+                3:46 &nbsp <i id="3" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/50_Cent_ft_Olivia_-_Candy_Shop.jpg" alt="indie">
+            Candy_Shop
+            <div class="SongControl">
+                3:28 &nbsp
+                <i id="4" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/Lost_Sky.jpg" alt="indie">
+            Lost_Sky
+            <div class="SongControl">
+                3:14 &nbsp
+                <i id="5" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/The-future-bass.jpg" alt="indie">
+            The-future-bass
+            <div class="SongControl">
+                2:15 &nbsp
+                <i id="6" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/Some Body.jpg" alt="indie">
+            Some Body
+            <div class="SongControl">
+                3:06 &nbsp
+                <i id="7" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+        <div class="SongItem">
+            <img class="SongIcon" src="images/Thrift Shop.jpg" alt="indie">
+            Thrift Shop
+            <div class="SongControl">
+                4:02 &nbsp
+                <i id="8" class="songPlay fa-solid fa-play"></i>
+            </div>
+        </div>
+    </div>
+        
+    <div class="bottom">
+        <input id="progressBar" type="range" value="0" min="0" max="100">
+        <div class="icon">
+            <i class="fa-solid fa-2x fa-backward-step" id="PreviousSong"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="MasterPlay"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="NextSong"></i>
+        </div>
+        <img id="wave" src="images/5uwq.gif">
+        <span id="SongBottomName"> Indie-folk-king</span>
+        <span> <span id="timeStampMin">0</span>:<span id="timeStampSec">00</span></span>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/467319954f.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>

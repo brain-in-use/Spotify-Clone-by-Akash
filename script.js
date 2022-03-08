@@ -75,11 +75,9 @@ Array.from(document.getElementsByClassName('songPlay')).forEach((element)=>{
         e.target.classList.remove('fa-play');
         e.target.classList.add('fa-pause');
         }
-        else{console.log((audioElement.src).substring(22));
+        else{
             if(songs[songIndex].filePath == audioElement.src.substring(22))
             {
-                // console.log((songs[songIndex].filePath));
-                console.log((audioElement.src).substring(22));
                 audioElement.pause();
                 // audioElement.src=songs[songIndex].filePath;
                 // bottomName.innerText=songs[songIndex].songName;
